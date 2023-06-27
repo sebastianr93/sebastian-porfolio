@@ -1,0 +1,43 @@
+@media(max-width: 480px) {
+
+/* Hero Banner */
+
+.img-profile {
+    display: block;
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 23%;
+    right: 87.2%;
+    top: 5%;
+    bottom: 25%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.hero {
+    padding-top: 360px;
+  }
+/* Content */
+
+.tools img{
+    width: 60px;
+    height: 60px;
+}
+
+.programming img{
+    width: 60px;
+    height: 60px;
+}
+
+.soft-skills img{
+    width: 20px;
+    height: 20px;
+}
+
+.valuable-skills img{
+    width: 60px;
+    height: 60px;
+}
+
+}
