@@ -1,6 +1,59 @@
 @media(max-width: 480px) {
 
-/* Hero Banner */
+/* Menu */
+
+.menu {
+    display: none;
+  }
+
+  .burger-icon {
+    display: flex;
+  }
+
+  .burger-icon .bar {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin: 4px 0;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 0;
+  }
+
+  .dropdown-menu.show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dropdown-menu a {
+    display: block;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  nav ul {
+    position: absolute;
+    left: 8px;
+    top: 40px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+  }
+
+/* Start - Hero Banner */
 
 .img-profile {
     display: block;
@@ -18,7 +71,64 @@
 .hero {
     padding-top: 360px;
   }
+
+/* About Dropdown */
+
+  
+.dropdown-content.show {
+    font-size: 19px;
+    height: 920px;
+    width: 1013px;
+    display: block;
+    max-height: 10%;
+    top: 140px;
+    left: -14%;
+    width: 380px;
+  }
+
+.dropdown-content.show p {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px 0;
+  }
+
 /* Content */
+
+/* QA, Programming, Certificates sliders */
+
+.slider-qa div p, 
+.slider-programming div p, 
+.slider-certificates div p {
+    text-align: justify;
+    margin: 0 0;
+  }
+
+.slick-prev,
+.slick-next {
+  top: 20%;
+}
+
+.slick-prev {
+    left: -10%;
+}
+
+.slick-next {
+    right: -10%;
+}
+
+.slick-prev img,
+.slick-next img {
+    width: 30px;
+    height: 30px;
+}
+
+  .slider-certificates div img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+/* Tools, programming, soft & valuable skills */
 
 .tools img{
     width: 60px;
@@ -35,9 +145,21 @@
     height: 20px;
 }
 
+.soft-skills table p {
+    font-size: 10px;
+}
+
 .valuable-skills img{
     width: 60px;
     height: 60px;
 }
+
+/* Contact */
+
+form input[type="submit"] {
+    font-size: 18px;
+    width: 45%;
+    margin-left: 32%;
+  }
 
 }

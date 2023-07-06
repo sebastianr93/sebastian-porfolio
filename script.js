@@ -16,6 +16,24 @@ function playButtonSound() {
     raven.play();
   }
 
+// "Menu" Responsive Dropdown
+
+const burgerIcon = document.querySelector('.burger-icon');
+const dropdownMenu = document.querySelector('.menu');
+
+function toggleDropdownMenu() {
+  const computedStyle = window.getComputedStyle(dropdownMenu);
+  const display = computedStyle.getPropertyValue('display');
+
+  if (display === 'none') {
+    dropdownMenu.style.display = 'block';
+  } else {
+    dropdownMenu.style.display = 'none';
+  }
+}
+
+burgerIcon.addEventListener('click', toggleDropdownMenu);
+
 // "About" Dropdown
 
 const dropdownBtn = document.querySelector('.dropdown-btn');

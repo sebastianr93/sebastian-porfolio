@@ -67,10 +67,12 @@ body, ul {
     display: flex;
     align-items: center;
   }
-
+  
   nav ul {
     list-style: none;
     background-color: transparent;
+    display: flex;
+    align-items: center;
   }
   
   nav ul li {
@@ -83,7 +85,7 @@ body, ul {
     text-decoration: none;
     transition: 0.2s;
   }
-
+  
   .burger-icon {
     display: none;
     flex-direction: column;
@@ -104,20 +106,19 @@ body, ul {
     color: rgba(178, 102, 205);
     text-decoration: none;
   }
-
+  
   .menu li a:hover {
     color: #fff;
     text-decoration: underline;
     transform: scale(1.2);
   }
   
-  
   .menu li {
     margin-right: 50px;
     text-shadow: 0 4px 10px rgba(0, 0, 0);
     transition: box-shadow 0.3s ease;
   }
-
+  
   .menu li:hover {
     text-shadow: 0 4px 10px rgba(255, 148, 255, 0.5);
     color: #fff;
@@ -128,7 +129,7 @@ body, ul {
     font-size: 16px;
   }
   
-  /* Hero Banner */
+  /* Start - Hero Banner */
 
   .hero {
     text-align: center;
@@ -146,8 +147,8 @@ body, ul {
   .img-profile {
     display: inline;
     position: absolute;
-    left: 960px;
-    margin-top: 40px;
+    left: 80%;
+    margin-top: 2%;
   }
   
   .hero h1 {
@@ -229,7 +230,7 @@ body, ul {
   }
   
 .dropdown-content.show p {
-  text-align: center;
+  text-align: justify;
   width: 100%;
   padding: 10px;
   margin: 5px 0;
@@ -247,7 +248,7 @@ body, ul {
     max-width: 800px;
     margin: 0 auto;
     padding: 50px;
-    background-color: rgb(25, 25, 25);
+    background-image: url(media/images/table.png);
     margin-top: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     color: #fff;
@@ -266,55 +267,6 @@ body, ul {
     text-shadow: 0 4px 10px rgba(255, 148, 255, 0.5);
     color: #fff;
     transform: scale(1.2);
-  }
-  
-  .programming p {
-    margin-top: 5px;
-  }
-
-  /* Tools */
-
-  .tools table {
-    width: 100%;
-    table-layout: fixed;
-  }
-  
-  .tools td {
-    text-align: center;
-    vertical-align: middle;
-    padding: 10px;
-  }
-
-  .tools img{
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .tools p{
-    text-align: center;
-    margin-top: 5px;
-  }
-
-  /* Programming */
-
-  .programming table {
-    width: 100%;
-    table-layout: fixed;
-  }
-  
-  .programming td {
-    text-align: center;
-    vertical-align: middle;
-    padding: 10px;
-  }
-  
-  .programming img {
-    display: block;
-    margin: 0 auto;
-    width: 120px;
-    height: 120px;
   }
 
   /* QA Projects */
@@ -440,6 +392,55 @@ body, ul {
     text-shadow: 0 4px 10px rgba(0, 0, 0)
   }
 
+    /* Tools */
+
+    .tools table {
+      width: 100%;
+      table-layout: fixed;
+    }
+    
+    .tools td {
+      text-align: center;
+      vertical-align: middle;
+      padding: 10px;
+    }
+  
+    .tools img{
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    .tools p{
+      text-align: center;
+      margin-top: 5px;
+    }
+  
+    /* Programming */
+  
+    .programming table {
+      width: 100%;
+      table-layout: fixed;
+    }
+  
+    .programming p {
+      margin-top: 5px;
+    }
+    
+    .programming td {
+      text-align: center;
+      vertical-align: middle;
+      padding: 10px;
+    }
+    
+    .programming img {
+      display: block;
+      margin: 0 auto;
+      width: 120px;
+      height: 120px;
+    }
+
   /* Valuable Skills */
 
   .valuable-skills table {
@@ -503,7 +504,7 @@ body, ul {
     max-width: 800px;
     margin: 0 auto;
     padding: 50px;
-    background-color: rgb(25, 25, 25);
+    background-image: url(media/images/table.png);
     margin-top: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     color: #fff;
