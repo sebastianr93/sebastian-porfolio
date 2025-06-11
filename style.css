@@ -212,8 +212,8 @@ nav ul li a {
   
   .dropdown-content {
     display: none;
-    position: absolute;
-    padding: 10px;
+    position: center;
+    padding: 70px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
